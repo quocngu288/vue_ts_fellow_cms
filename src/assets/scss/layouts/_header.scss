@@ -1,0 +1,48 @@
+.layout-header {
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  .ant-select {
+    width: 72px;
+    margin-right: 8px;
+  }
+
+  .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    height: 28px;
+  }
+
+  .ant-select-single .ant-select-selector .ant-select-selection-item,
+  .ant-select-single .ant-select-selector .ant-select-selection-placeholder {
+    line-height: 26px;
+  }
+
+  .logo {
+    width: 84px;
+    height: 42px;
+    margin: 11px 24px 11px 0;
+    float: left;
+    flex-shrink: 0;
+    cursor: pointer;
+    img {
+      width: 100%;
+    }
+  }
+
+  .optional {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .ant-dropdown-link {
+      width: 40px;
+      height: 40px;
+      margin-left: 10px;
+      border-radius: 50%;
+      overflow: hidden;
+      cursor: pointer;
+    }
+  }
+}

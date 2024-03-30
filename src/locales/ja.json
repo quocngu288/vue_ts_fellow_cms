@@ -1,0 +1,211 @@
+{
+  "COMMON": {
+    "DATA_EMPTY": "データがありません。",
+    "UPLOAD_CONTENT": "ここにファイルをドラッグ＆ドロップ、またはクリックして選択してください。"
+  },
+  "BUTTON": {
+    "SEND": "送信する",
+    "SEARCH": "検索する",
+    "RESET": "リセット",
+    "CREATE": "登録する",
+    "EDIT": "編集",
+    "DELETE": "削除",
+    "CANCEL": "キャンセル",
+    "AUTO_INPUT": "自動入力",
+    "OK": "決定",
+    "LOGOUT": "ログアウト",
+    "YES": "はい",
+    "NO": "キャンセル",
+    "ADD_INDUSTRY_TYPE": "業種登録",
+    "SUBMIT": "登録",
+    "RESET_PASSWORD": "パスワードを再設定する"
+  },
+  "LOGIN": {
+    "TITLE": "ログイン",
+    "SUBTITLE": "システム管理",
+    "BTN_SUBMIT": "ログイン",
+    "FORGOT_PASSWORD": "パスワードを忘れた方",
+    "EMAIL": "メールアドレス",
+    "PASSWORD": "パスワード"
+  },
+  "PASSWORD_RESET": {
+    "TITLE": "パスワード再設定",
+    "NOTE": "パスワード再設定用URLを送信しますので、ご登録いただいているメールアドレスを入力し、「送信する」ボタンをクリックしてください。",
+    "MAIL_ADDRESS": "メールアドレス"
+  },
+  "NEW_PASSWORD": {
+    "TITLE": "パスワード再設定",
+    "NOTE": "新しいパスワード入力し、「パスワードを再設定する」ボタンをクリックしてください。",
+    "NEW_PASSWORD": "新パスワード",
+    "NEW_PASSWORD_CONFIRM": "新パスワード確認"
+  },
+  "PLACEHOLDER": {
+    "EMAIL": "メールアドレス",
+    "PASSWORD": "パスワード"
+  },
+  "NAVIGATION": {
+    "ADMIN": "管理者",
+    "ADMIN_LIST": "一覧",
+    "ADMIN_CREATE": "登録",
+    "MEMBER": "会員管理",
+    "MEMBER_LIST": "一覧",
+    "MEMBER_CREATE": "登録",
+    "DATA_SETTING": "データ設定",
+    "MAIL_SETTING": "メール設定",
+    "MAIL_SERVER_SETTING": "送信メールアドレス",
+    "CONTACT_MAIL_SETTING": "受信メールアドレス"
+  },
+  "ADMIN": {
+    "TITLE": "管理者一覧",
+    "TITLE_CREATE": "管理者登録",
+    "TITLE_EDIT": "管理者編集",
+    "SEARCH": {
+      "FULL_NAME": "姓名",
+      "FURIGANA": "ふりがな"
+    },
+    "LIST": {
+      "FULL_NAME": "姓名",
+      "FURIGANA": "ふりがな",
+      "MAIL": "メールアドレス",
+      "CREATE_AT": "登録日時",
+      "UPDATE_AT": "更新日時"
+    },
+    "FORM": {
+      "FULL_NAME": "姓名",
+      "FURIGANA": "ふりがな",
+      "PASSWORD": "パスワード",
+      "PASSWORD_CONFIRM": "パスワード確認",
+      "MAIL": "メールアドレス",
+      "GENDER": "性別",
+      "TELEPHONE": "携帯電話",
+      "BIRTHDAY": "生年月日",
+      "PERMISSION_ROLE": "権限ロール"
+    }
+  },
+  "MEMBER": {
+    "TITLE": "会員一覧",
+    "TITLE_CREATE": "会員登録",
+    "TITLE_EDIT": "会員編集",
+    "SEARCH": {
+      "REGIST_NUMBER": "登録番号",
+      "REGIST_NUMBER_TAG": "登-",
+      "AGENCY_NAME": "登録機関名",
+      "PHONE": "電話番号",
+      "MAIL": "メールアドレス",
+      "INDUSTRY_TYPE": "業種",
+      "MANY_HUMAN_RESOURCES_OR_MANY_CORPORATIONS": "人材多／企業多",
+      "EXPERIENCE_IN_INTERN_TRAINING": "技能実習業務経験有無"
+    },
+    "LIST": {
+      "REGIST_NUMBER": "登録番号",
+      "REGIST_NUMBER_TAG": "登-",
+      "AGENCY_NAME": "登録機関名",
+      "PHONE": "電話番号",
+      "MAIL": "メールアドレス",
+      "INDUSTRY_TYPE": "業種"
+    },
+    "FORM": {
+      "REGIST_NUMBER": "登録番号",
+      "REGIST_NUMBER_TAG": "登-",
+      "AGENCY_NAME": "登録機関名",
+      "LOCATION": "所在地",
+      "REPRESENTATIVE_NAME": "代表者名",
+      "PIC_NAME": "担当者名",
+      "PHONE": "電話番号",
+      "MAIL": "メールアドレス",
+      "URL_COMPANY": "ホームページURL",
+      "NUMBER_OF_EMPLOYEES": "従業員数",
+      "INDUSTRY_TYPE": "業種（複数選択可）",
+      "COMPANY_INFORMATION": "外国人材に関わる業務情報",
+      "NOTE": "管理用備考欄（最大250字）",
+      "OTHER": "その他",
+      "PUBLIC_TO_CONSULTATION_COUNTER": "相談窓口への公開",
+      "COMPANY_INFORMATION_OTHER": ""
+    }
+  },
+  "MAIL_SERVER_SETTING":{
+    "TITLE":"メールサーバー設定",
+    "FORM":{
+      "TYPE": "タイプ",
+      "GMAIL": "Gmail",
+      "OTHER": "その他のメールサーバー",
+      "MAIL_FOR_SENT": "送信メール",
+      "PASSWORD": "送信メールのパスワード",
+      "PORT": "ポート",
+      "HOST": "ホスト",
+      "ENCRYPTION": "暗号化形式",
+      "ENCRYPTION_OPTION":{
+        "EMPTY": "空き",
+        "SSL": "SSL",
+        "TLS": "TLS"
+      }
+    }
+  },
+  "TOOLTIP": {
+    "EDIT": "編集",
+    "DELETE": "削除"
+  },
+  "MODAL": {
+    "TITLE_INDUSTRY_TYPE": "特定技能業種を追加登録します",
+    "TITLE_ERROR_IMPORT_CSV": "失敗",
+    "TITLE_IMPORT_RESULT": "インポート結果"
+  },
+  "MODAL_CONFIRM": {
+    "TITLE_DELETE_ADMIN": "削除確認?",
+    "CONTENT_DELETE_ADMIN": "削除してもよろしいですか?"
+  },
+  "PAGINATION": {
+    "TOTAL": "総件数",
+    "ITEMS": "件"
+  },
+  "CONTACT_MAIL_SETTING":{
+    "TITLE":"受信メール設定",
+    "FORM":{
+      "MAIL":"受信メール",
+      "SUBMIT": "確定"
+    }
+  },
+  "OPTION_ROLE": {
+    "ADMIN": "管理者",
+    "SUPER_ADMIN": "総合管理者"
+  },
+  "OPTION_GENDER": {
+    "MALE": "男性",
+    "FEMALE": "女性",
+    "OTHER": "未回答"
+  },
+  "OPTION_COMPANY_INFORMATION_EXP": {
+    "MANY_HUMAN_RESOURCES": "人材多",
+    "MANY_CORPORATIONS": "企業多"
+  },
+  "OPTION_COMPANY_INFORMATION": {
+    "EXPERIENCED_IN_TRAINING": "技能実習業務経験あり",
+    "NO_EXPERIENCE_IN_TRAINING": "技能実習業務経験なし"
+  },
+  "INDUSTRY_TYPE": {
+    "TITLE": "特定技能業種",
+    "NO": "番号",
+    "NAME": "業種",
+    "FORM": {
+      "INDUSTRY_TYPE": "業種"
+    }
+  },
+  "DATA_SETTING": {
+    "TITLE": "データ設定",
+    "LIST_OF_AGENCY": "登録支援機関登録簿",
+    "LINE_SUCCESS": "インポート済みの件数：",
+    "LINE_FAIL": "インポート失敗の件数："
+  },
+  "NOTIFICATION": {
+    "MESSAGE_SUCCESSFUL": "完了",
+    "DESCRIPTION_SUCCESSFUL": "処理が完了しました",
+    "MESSAGE_UNSUCCESSFUL": "失敗",
+    "DESCRIPTION_UNSUCCESSFUL": "処理が失敗しました",
+    "NEW_PASSWORD_FAIL": "失敗",
+    "NEW_PASSWORD_ERROR_GLOBAL": "ログイン画面で再度【パスワードを忘れた方】をクリックし、別のパスワード再設定用URLを取得してください。"
+  },
+  "ERROR_CSV": {
+    "LINE": "{line}行目に誤りがあります。",
+    "MESSAGE": "エラーの内容"
+  }
+}

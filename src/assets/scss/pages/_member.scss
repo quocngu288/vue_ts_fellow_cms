@@ -1,0 +1,21 @@
+.other-input {
+  .hideLabel {
+    .ant-form-item {
+      &-label {
+        display: none;
+      }
+    }
+  }
+
+  .ant-form-item-control-input-content {
+    display: flex;
+
+    .ant-form-item {
+      width: 100%;
+
+      &:nth-child(1) {
+        width: 30%;
+      }
+    }
+  }
+}

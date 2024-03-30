@@ -1,0 +1,211 @@
+{
+  "COMMON": {
+    "DATA_EMPTY": "There is no data.",
+    "UPLOAD_CONTENT": "Drag and drop files here or click to select."
+  },
+  "BUTTON": {
+    "SEND": "Send",
+    "SEARCH": "Search",
+    "RESET": "Reset",
+    "CREATE": "Create",
+    "EDIT": "Edit",
+    "DELETE": "Delete",
+    "CANCEL": "Cancel",
+    "AUTO_INPUT": "Auto input",
+    "OK": "OK",
+    "LOGOUT": "Logout",
+    "YES": "Yes",
+    "NO": "No",
+    "ADD_INDUSTRY_TYPE": "Add industry type",
+    "SUBMIT": "Submit",
+    "RESET_PASSWORD": "Reset password"
+  },
+  "LOGIN": {
+    "TITLE": "Login",
+    "SUBTITLE": "System Management",
+    "BTN_SUBMIT": "Login",
+    "FORGOT_PASSWORD": "Forget password",
+    "EMAIL": "Email address",
+    "PASSWORD": "Password"
+  },
+  "PASSWORD_RESET": {
+    "TITLE": "Reset Password",
+    "NOTE": "We will send you a password reset URL, so please enter your registered email address and click the \"Send\" button.",
+    "MAIL_ADDRESS": "Mail Address"
+  },
+  "NEW_PASSWORD": {
+    "TITLE": "Reset Password",
+    "NOTE": "Enter your new password and click the \"Reset Password\" button.",
+    "NEW_PASSWORD": "New Password",
+    "NEW_PASSWORD_CONFIRM": "New Password Confirm"
+  },
+  "PLACEHOLDER": {
+    "EMAIL": "Mail Address (Placeholder)",
+    "PASSWORD": "Password (Placeholder)"
+  },
+  "NAVIGATION": {
+    "ADMIN": "Admin",
+    "ADMIN_LIST": "List",
+    "ADMIN_CREATE": "Add",
+    "MEMBER": "Member",
+    "MEMBER_LIST": "List",
+    "MEMBER_CREATE": "Add",
+    "DATA_SETTING": "Data Setting",
+    "MAIL_SETTING": "Mail setting",
+    "MAIL_SERVER_SETTING": "Mail for sent",
+    "CONTACT_MAIL_SETTING": "Mail for receive"
+  },
+  "ADMIN": {
+    "TITLE": "Admin List",
+    "TITLE_CREATE": "Create Admin",
+    "TITLE_EDIT": "Edit Admin",
+    "SEARCH": {
+      "FULL_NAME": "Full Name",
+      "FURIGANA": "Furigana"
+    },
+    "LIST": {
+      "FULL_NAME": "Full Name",
+      "FURIGANA": "Furigana",
+      "MAIL": "Mail",
+      "CREATE_AT": "Create at",
+      "UPDATE_AT": "Update at"
+    },
+    "FORM": {
+      "FULL_NAME": "Full name",
+      "FURIGANA": "Furigana",
+      "PASSWORD": "Password",
+      "PASSWORD_CONFIRM": "Password Confirm",
+      "MAIL": "Mail",
+      "GENDER": "Gender",
+      "TELEPHONE": "Telephone",
+      "BIRTHDAY": "Birthday",
+      "PERMISSION_ROLE": "Permission Role"
+    }
+  },
+  "MEMBER": {
+    "TITLE": "Member list",
+    "TITLE_CREATE": "Create Member",
+    "TITLE_EDIT": "Edit Member",
+    "SEARCH": {
+      "REGIST_NUMBER": "Regist number",
+      "REGIST_NUMBER_TAG": "No-",
+      "AGENCY_NAME": "Agency name",
+      "PHONE": "Phone",
+      "MAIL": "Mail",
+      "INDUSTRY_TYPE": "Industry type",
+      "MANY_HUMAN_RESOURCES_OR_MANY_CORPORATIONS": "Many human resources/Many corporations",
+      "EXPERIENCE_IN_INTERN_TRAINING": "Experience in intern training"
+    },
+    "LIST": {
+      "REGIST_NUMBER": "Regist number",
+      "REGIST_NUMBER_TAG": "No-",
+      "AGENCY_NAME": "Agency name",
+      "PHONE": "Phone",
+      "MAIL": "Mail",
+      "INDUSTRY_TYPE": "Industry type"
+    },
+    "FORM": {
+      "REGIST_NUMBER": "Regist number",
+      "REGIST_NUMBER_TAG": "No-",
+      "AGENCY_NAME": "Agency name",
+      "LOCATION": "Location",
+      "REPRESENTATIVE_NAME": "Representative's name",
+      "PIC_NAME": "PIC's name",
+      "PHONE": "Phone",
+      "MAIL": "Mail",
+      "URL_COMPANY": "URL to company HP",
+      "NUMBER_OF_EMPLOYEES": "Number of employees",
+      "INDUSTRY_TYPE": "Industry type (mutiple choice)",
+      "COMPANY_INFORMATION": "Company information",
+      "NOTE": "Note (max 250 char)",
+      "OTHER": "Other",
+      "PUBLIC_TO_CONSULTATION_COUNTER": "Public to consultation counter",
+      "COMPANY_INFORMATION_OTHER": ""
+    }
+  },
+  "MAIL_SERVER_SETTING":{
+    "TITLE":"Mail server setting",
+    "FORM":{
+      "TYPE": "Type",
+      "GMAIL": "Gmail",
+      "OTHER": "Other mail server",
+      "MAIL_FOR_SENT": "Mail for sent",
+      "PASSWORD": "Password of mail for sent",
+      "PORT": "Port",
+      "HOST": "Host",
+      "ENCRYPTION": "Encryption",
+      "ENCRYPTION_OPTION":{
+        "EMPTY": "Empty",
+        "SSL": "SSL",
+        "TLS": "TLS"
+      }
+    }
+  },
+  "TOOLTIP": {
+    "EDIT": "Edit",
+    "DELETE": "Delete"
+  },
+  "MODAL": {
+    "TITLE_INDUSTRY_TYPE": "Add an industry type",
+    "TITLE_ERROR_IMPORT_CSV": "Fail",
+    "TITLE_IMPORT_RESULT": "Import result",
+  },
+  "MODAL_CONFIRM": {
+    "TITLE_DELETE_ADMIN": "Are you sure to delete?",
+    "CONTENT_DELETE_ADMIN": "This action can not be undone.?"
+  },
+  "PAGINATION": {
+    "TOTAL": "Total",
+    "ITEMS": "items"
+  },
+  "CONTACT_MAIL_SETTING":{
+    "TITLE":"Received mail setting",
+    "FORM":{
+      "MAIL":"Mail for received",
+      "SUBMIT": "OK"
+    }
+  },
+  "OPTION_ROLE": {
+    "ADMIN": "Admin",
+    "SUPER_ADMIN": "Super Admin"
+  },
+  "OPTION_GENDER": {
+    "MALE": "Male",
+    "FEMALE": "Female",
+    "OTHER": "Other"
+  },
+  "OPTION_COMPANY_INFORMATION_EXP": {
+    "MANY_HUMAN_RESOURCES": "Many human resources",
+    "MANY_CORPORATIONS": "Many corporations"
+  },
+  "OPTION_COMPANY_INFORMATION": {
+    "EXPERIENCED_IN_TRAINING": "Experienced in training",
+    "NO_EXPERIENCE_IN_TRAINING": "No experience in training"
+  },
+  "INDUSTRY_TYPE": {
+    "TITLE": "Industry type",
+    "NO": "No",
+    "NAME": "Industry type",
+    "FORM": {
+      "INDUSTRY_TYPE": "Industry type"
+    }
+  },
+  "DATA_SETTING": {
+    "TITLE": "Data setting",
+    "LIST_OF_AGENCY": "List of agency",
+    "LINE_SUCCESS": "Number of imported item:",
+    "LINE_FAIL": "Number of fail item:"
+  },
+  "NOTIFICATION": {
+    "MESSAGE_SUCCESSFUL": "Successful",
+    "DESCRIPTION_SUCCESSFUL": "Process successfully",
+    "MESSAGE_UNSUCCESSFUL": "Unsuccessful",
+    "DESCRIPTION_UNSUCCESSFUL": "Process unsuccessfully",
+    "NEW_PASSWORD_FAIL": "Fail",
+    "NEW_PASSWORD_ERROR_GLOBAL": "Please click [Forget password] again at the login screen and get another password reset URL."
+  },
+  "ERROR_CSV": {
+    "LINE": "There is an error at line {line}",
+    "MESSAGE": "Error"
+  }
+}

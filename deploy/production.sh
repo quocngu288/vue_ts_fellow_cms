@@ -1,0 +1,1 @@
+rsync -azvh -e "ssh -i /Volumes/Storage/aws-key/gumi_key/prod-fellow/fellow-production.pem -p 8022"  /Volumes/Storage/git-projects/fellow-cms-vue-ts/dist/* r0570312@160.251.148.47:/home/r0570312/public_html/cms.fellow-earth.com

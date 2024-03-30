@@ -1,0 +1,18 @@
+.ant-form-item-label {
+  //text-align: left;
+  white-space: break-spaces;
+  word-break: break-word;
+}
+
+.form-item-last {
+  &.ant-form-item {
+    margin-bottom: 0;
+  }
+}
+
+.checkbox-group-custom {
+  .ant-form-item-required {
+    align-items: flex-start;
+    line-height: 1;
+  }
+}

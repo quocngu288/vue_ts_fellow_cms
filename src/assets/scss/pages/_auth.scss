@@ -1,0 +1,61 @@
+.auth {
+  height: 100%;
+
+  &__wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 400px;
+  }
+
+  &__header {
+    .auth {
+      &-title {
+        margin-bottom: 0;
+        font-size: 25px;
+        text-align: center;
+      }
+
+      &-subtitle {
+        margin-bottom: 16px;
+        text-align: center;
+      }
+    }
+  }
+
+  &__form {
+    .password-field {
+      margin-bottom: 8px;
+    }
+
+    .btn-submit {
+      margin-bottom: 16px;
+    }
+
+    .forgot-password {
+      display: block;
+      text-align: center;
+      text-decoration: underline;
+    }
+
+    .hideLabel .ant-form-item-label {
+      display: none;
+    }
+  }
+
+  &.password-reset {
+    .auth {
+      &__wrap {
+        max-width: 800px;
+      }
+
+      &__form {
+        .btn-submit {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

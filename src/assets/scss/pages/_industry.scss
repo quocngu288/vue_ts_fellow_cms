@@ -1,0 +1,10 @@
+.industry-form {
+  .ant-space {
+    width: 100%;
+     &-item {
+       &:nth-child(1) {
+         width: 100%;
+       }
+     }
+  }
+}

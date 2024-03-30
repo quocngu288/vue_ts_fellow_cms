@@ -1,0 +1,23 @@
+.error-404 {
+  padding: 32px 0;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  align-items: center;
+
+  svg {
+    max-height: 65vh;
+    margin: 0 auto;
+  }
+}
+
+.auth-right {
+  .about-svg {
+    overflow: hidden;
+
+    svg {
+      margin-bottom: -80px;
+    }
+  }
+}
